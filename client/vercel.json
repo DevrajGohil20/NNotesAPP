@@ -2,7 +2,7 @@
     "routes": [
       {
         "src": "/api/(.*)",
-        "dest": "https://n-notes-app.vercel.app"
+        "dest": "http://localhost:5000/"
       },
       {
         "src": "/(.*)",

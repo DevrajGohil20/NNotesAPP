@@ -1,4 +1,4 @@
-const API_BASE = 'https://n-notes-app.vercel.app';
+const API_BASE = 'http://localhost:5000/';
 let authSection = document.getElementById('auth-section');
 let notesSection = document.getElementById('notes-section');
 let notesList = document.getElementById('notes-list');
