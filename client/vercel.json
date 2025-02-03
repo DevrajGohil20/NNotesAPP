@@ -1,0 +1,18 @@
+{
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "https://n-notes-app.vercel.app"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/index.html"
+      }
+    ],
+    "builds": [
+      {
+        "src": "*.html",
+        "use": "@vercel/static"
+      }
+    ]
+  }

@@ -1,4 +1,4 @@
-// const API_BASE = 'https://notes-app-two-virid.vercel.app';
+const API_BASE = 'https://n-notes-app.vercel.app';
 let authSection = document.getElementById('auth-section');
 let notesSection = document.getElementById('notes-section');
 let notesList = document.getElementById('notes-list');
