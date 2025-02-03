@@ -1,0 +1,7 @@
+{
+    "name": "notes-frontend",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "echo 'Building static site'"
+    }
+  }
